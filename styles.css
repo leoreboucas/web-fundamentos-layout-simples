@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial, sans-serif;
+    background-color: #ccc;
+}
+
+header {
+    height: 500px;
+    padding-top: 15px;
+    background-image: url('imagens/bg-3.jpg');
+    background-size: cover;
+    background-position: right center;
+    color: #fff;
+}
+
+.hero-content {
+    text-align: center;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 56%;
+}
+
+.hero-content h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    text-shadow: 3px 3px 2px #333;
+}
+
+.hero-content p {
+    padding: 10px;
+    background-color: #000000be;
+    display: inline-block;
+    margin: 0 auto;
+    border-bottom: 3px solid #fff;
+}
+
+.hero-nav {
+    margin-top: 15px;
+    margin-right: 25px;
+}
+
+.hero-nav ul {
+    text-align: right;
+}
+
+.hero-nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+    list-style: none;
+ }
+
+ .hero-nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #0000001f;
+    border: 1px solid #fff;
+    padding: 10px;
+    transition: 0.3s all;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    
+ }
+
+ .hero-nav ul li a:hover {
+    background-color: #666;
+ }
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.content-section {
+    margin-top: 15px;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    overflow: auto;
+}
+
+.card {
+    width: 31%;
+    float: left;
+}
+
+#card-1, #card-2 {
+    margin-right: 3%;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card p {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: #444;
+    padding: 20px;
+    width: 100%;
+}
+
+.content-header {
+    padding: 10px 5px;
+    background-color: #e2e2e2;
+    border-bottom: 2px solid #ccc;
+    font-weight: 700;
+}
+
+article p {
+    margin: 10px 0px;
+}
+
+.footer {
+    background-color: #666;
+    text-shadow: 2px 2px 2px black;
+    color: #fff;
+    height: 80px;
+    line-height: 80px;
+}
+ .footer p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+ }
+
